@@ -1,0 +1,107 @@
+/* Use same theme as Dashboard */
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: var(--bg);
+  transition: all 0.3s ease-in-out;
+  font-family: 'Inter', sans-serif;
+}
+
+.light {
+  --bg: #f9fafb;
+  --text: #111827;
+  --card-bg: #ffffff;
+  --input-border: #cbd5e1;
+  --btn-bg: #2563eb;
+  --btn-hover: #1d4ed8;
+}
+
+.dark {
+  --bg: #0f172a;
+  --text: #f1f5f9;
+  --card-bg: #1e293b;
+  --input-border: #475569;
+  --btn-bg: #3b82f6;
+  --btn-hover: #2563eb;
+}
+
+.auth-card {
+  background: var(--card-bg);
+  padding: 2rem 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.auth-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 1.5rem;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.auth-form input {
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  border: 1px solid var(--input-border);
+  font-size: 1rem;
+  outline: none;
+  background: var(--card-bg);
+  color: var(--text);
+  transition: border 0.2s ease;
+}
+
+.auth-form input:focus {
+  border-color: var(--btn-bg);
+}
+
+.btn-submit {
+  padding: 0.75rem;
+  border-radius: 8px;
+  border: none;
+  background: var(--btn-bg);
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.btn-submit:hover {
+  background: var(--btn-hover);
+}
+
+.switch-text {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #64748b;
+}
+
+.btn-switch {
+  background: none;
+  border: none;
+  color: var(--btn-bg);
+  font-weight: 600;
+  cursor: pointer;
+  margin-left: 4px;
+  transition: color 0.2s;
+}
+
+.btn-switch:hover {
+  color: var(--btn-hover);
+}
+
+.error-msg {
+  color: #ef4444;
+  margin-top: 0.75rem;
+  font-weight: 500;
+}
