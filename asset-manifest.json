@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Smarttaskmanagement-frontend/static/css/main.d569b96a.css",
-    "main.js": "/Smarttaskmanagement-frontend/static/js/main.05b74d97.js",
+    "main.js": "/Smarttaskmanagement-frontend/static/js/main.1c7b0ad1.js",
     "index.html": "/Smarttaskmanagement-frontend/index.html",
     "main.d569b96a.css.map": "/Smarttaskmanagement-frontend/static/css/main.d569b96a.css.map",
-    "main.05b74d97.js.map": "/Smarttaskmanagement-frontend/static/js/main.05b74d97.js.map"
+    "main.1c7b0ad1.js.map": "/Smarttaskmanagement-frontend/static/js/main.1c7b0ad1.js.map"
   },
   "entrypoints": [
     "static/css/main.d569b96a.css",
-    "static/js/main.05b74d97.js"
+    "static/js/main.1c7b0ad1.js"
   ]
 }
